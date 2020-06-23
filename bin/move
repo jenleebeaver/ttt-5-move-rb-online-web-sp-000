@@ -11,5 +11,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go? Choose position by entering 1-9."
 input = gets.strip
 index = input_to_index(input)
-move(board, index, current_player="X")
+move(board, index)
 display_board(move)
